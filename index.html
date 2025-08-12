@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feliz 5 anos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="logotipo-da-netflix.jpg" alt="" width="50px">
+        </div>
+        <nav>
+            <a href="#"> Inicio</a>
+            <a href="#"> Séries</a>
+            <a href="#"> Filmes</a>
+            <a href="#"> Minha lista</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="conteudo">
+            <p class="titulo"> Matheus e Thifanny</p>
+            <p class="detalhes">
+                <span> 04 DE AGOSTO, 5 TEMPORADAS </span>
+                <span class="star">
+                    <i class="fa-solid fa-star" style="color: #df0c0c;"></i>
+                    <i class="fa-solid fa-star" style="color: #df0c0c;"></i>
+                    <i class="fa-solid fa-star" style="color: #df0c0c;"></i>
+                    <i class="fa-solid fa-star" style="color: #df0c0c;"></i>
+                    <i class="fa-solid fa-star" style="color: #df0c0c;"></i>
+                </span>
+                <p class="descricao">
+                        Tem algo em você que me acalma, mesmo nos dias mais turbulentos.
+                        É no seu olhar que eu encontro paz, e no seu abraço que o mundo todo faz sentido.
+                        Não é sobre perfeição — é sobre como você transforma o comum em especial só por estar perto.
+                        A gente não se completa… a gente transborda.
+                        E cada detalhe seu é um motivo a mais pra eu agradecer por te ter na minha vida.
+                        Você é meu acaso favorito que virou certeza.
+                        Meu hoje, meu sempre.
+                </p>
+                <div class="botoes">
+                    <button> <i class="fa-solid fa-play"></i>Continuar</button>
+                    <button><i class="fa-solid fa-star"></i> Favoritos</button>
+
+                </div>
+            </p>
+
+        </div>
+    </section>
+
+    <section class="momentos">
+        <h2>Nossos Melhores Momentos </h2>
+
+        <div class="swiper">
+
+        <div class="swiper-wrapper">
+        
+            <div class="swiper-slide"><img src="./Fotos/Foto1.png" ></div>
+            <div class="swiper-slide"><img src="./Fotos/2.png" ></div>
+            <div class="swiper-slide"><img src="./Fotos/3.png" ></div>
+            <div class="swiper-slide"><img src="./Fotos/4.png" ></div>
+            <div class="swiper-slide"><img src="./Fotos/5.png" ></div>
+            <div class="swiper-slide"><img src="./Fotos/6.png" ></div>
+            <div class="swiper-slide"><img src="./Fotos/7.png" ></div>
+            <div class="swiper-slide"><img src="./Fotos/8.png" ></div>
+            <div class="swiper-slide"><img src="./Fotos/9.png" ></div>
+            <div class="swiper-slide"><img src="./Fotos/10.png" ></div>
+            <div class="swiper-slide"><img src="./Fotos/12.png" ></div>
+            <div class="swiper-slide"><img src="./Fotos/13.png" ></div>
+    </section>
+
+    <footer>
+        2025 - Matheus e Thifanny
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        slidesPerView: 2,
+        spaceBetween: 10,
+
+        breakpoints: {
+            600: {
+                loop: true,
+                slidesPerView: 3,
+                spaceBetween: 15,
+            },
+            900: {
+                loop: true,
+                slidesPerView: 4,
+                spaceBetween: 40,
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
